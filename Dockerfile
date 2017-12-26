@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM node:8.9.2-alpine
 
 RUN \
 	mkdir -p /aws && \
